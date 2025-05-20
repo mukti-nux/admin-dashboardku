@@ -1,9 +1,13 @@
+import Sidebar from "./components/sidebar";
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Halo Mukti! Tailwind-nya jalan 🎉
-      </h1>
+    <div className="flex">
+      <Sidebar />
+      <div className="flex-1 p-6">
+        {/* Konten utama seperti Header & Grafik di sini */}
+        <h1 className="text-2xl font-bold">Selamat datang di Admin Dashboard</h1>
+      </div>
     </div>
   );
 }
