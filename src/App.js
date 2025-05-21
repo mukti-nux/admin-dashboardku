@@ -12,11 +12,12 @@ function App() {
         <Header />
         <div className="p-6 bg-gray-50 flex-1 overflow-y-auto space-y-6">
           {/* Kamu bisa tambah konten lain di bawah */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-             <StatistikCard title="Total Kunjungan" value="12.350" icon={<FaChartBar />} />
-             <StatistikCard title="Total Dokumen" value="1.210" icon={<FaFileAlt />} />
-             <StatistikCard title="Total Akses" value="3.845" icon={<FaLock />} />
-             <div>
+          <div div className="overflow-x-auto"></div>
+            <div className="flex gap-4 min-w-full sm:grid sm:grid-cols-3 sm:gap-4">
+              <StatistikCard title="Total Kunjungan" value="12.350" icon={<FaChartBar />} />
+              <StatistikCard title="Total Dokumen" value="1.210" icon={<FaFileAlt />} />
+              <StatistikCard title="Total Akses" value="3.845" icon={<FaLock />} />
+              <div>
               <StatistikChart />
              </div>
           </div>
