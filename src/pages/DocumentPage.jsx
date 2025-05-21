@@ -1,8 +1,8 @@
 // pages/Document.jsx
 const documents = [
-  { id: 1, name: "Panduan Pengguna", status: "Online", traffic: 124 },
-  { id: 2, name: "Laporan Bulanan", status: "Offline", traffic: 87 },
-  { id: 3, name: "Manual Instalasi", status: "Online", traffic: 230 },
+  { id: 1, name: "Panduan Pengguna", link: "https://google.drive/akumautidurmass03456123456", status: "Online", traffic: 124 },
+  { id: 2, name: "Laporan Bulanan", link: "https://google.drive/akumaungapaiiiann2454refde324kmewrty", status: "Offline", traffic: 87 },
+  { id: 3, name: "Manual Instalasi", link: "https://google.drive/ngantuknyaaadenef34fre42o33lk43nj4hrui456uyjhrges456", status: "Online", traffic: 230 },
 ];
 
 const Document = () => {
