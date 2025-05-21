@@ -30,7 +30,7 @@ const Sidebar = () => {
 
   return (
     <div className="w-64 h-screen bg-gray-900 text-white flex flex-col shadow-lg">
-      <div className="text-2xl font-bold p-6 border-b border-gray-700">Dashboard</div>
+      <div className="text-2xl font-bold p-6 border-b border-gray-700">Admin Area👍</div>
       <ul className="flex-1 p-4 space-y-2">
         {menu.map((item) => {
           const isActive = location.pathname === item.path;
