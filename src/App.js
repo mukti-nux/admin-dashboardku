@@ -1,12 +1,16 @@
 import Sidebar from "./components/sidebar";
+import Header from "./components/header";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex h-screen">
       <Sidebar />
-      <div className="flex-1 p-6">
-        {/* Konten utama seperti Header & Grafik di sini */}
-        <h1 className="text-2xl font-bold">Selamat datang di Admin Dashboard</h1>
+      <div className="flex-1 flex flex-col">
+        <Header />
+        <div className="p-6 bg-gray-50 flex-1 overflow-y-auto">
+          {/* Di sinilah nanti grafik dan konten lainnya */}
+          <h2 className="text-2xl font-bold mb-4">Statistik Pengguna</h2>
+        </div>
       </div>
     </div>
   );
