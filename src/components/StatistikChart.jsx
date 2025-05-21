@@ -9,12 +9,18 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "Jan", pengguna: 400 },
-  { name: "Feb", pengguna: 300 },
-  { name: "Mar", pengguna: 500 },
-  { name: "Apr", pengguna: 700 },
+  { name: "Januari", pengguna: 400 },
+  { name: "Febuari", pengguna: 300 },
+  { name: "Maret", pengguna: 500 },
+  { name: "April", pengguna: 700 },
   { name: "Mei", pengguna: 600 },
-  { name: "Jun", pengguna: 800 },
+  { name: "Juni", pengguna: 800 },
+  { name: "juli", pengguna: 100},
+  { name: "Agustus", pengguna: 200},
+  { name: "September", pengguna: 250},
+  { name: "Oktober", pengguna: 350},
+  { name: "November", pengguna: 600},
+  { name: "Desember", pengguna: 700},
 ];
 
 const StatistikChart = () => {
