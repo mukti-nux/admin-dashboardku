@@ -1,8 +1,26 @@
 // pages/Document.jsx
 const documents = [
-  { id: 1, name: "Panduan Pengguna", link: "https://google.drive/akumautidurmass03456123456", status: "Online", traffic: 124 },
-  { id: 2, name: "Laporan Bulanan", link: "https://google.drive/akumaungapaiiiann2454refde324kmewrty", status: "Offline", traffic: 87 },
-  { id: 3, name: "Manual Instalasi", link: "https://google.drive/ngantuknyaaadenef34fre42o33lk43nj4hrui456uyjhrges456", status: "Online", traffic: 230 },
+  {
+    id: 1,
+    name: "Panduan Pengguna",
+    link: "https://google.drive/akumautidurmass03456123456",
+    status: "Online",
+    traffic: 124,
+  },
+  {
+    id: 2,
+    name: "Laporan Bulanan",
+    link: "https://google.drive/akumaungapaiiiann2454refde324kmewrty",
+    status: "Offline",
+    traffic: 87,
+  },
+  {
+    id: 3,
+    name: "Manual Instalasi",
+    link: "https://google.drive/ngantuknyaaadenef34fre42o33lk43nj4hrui456uyjhrges456",
+    status: "Online",
+    traffic: 230,
+  },
 ];
 
 const Document = () => {
@@ -28,6 +46,16 @@ const Document = () => {
               >
                 <td className="py-3 px-6">{index + 1}</td>
                 <td className="py-3 px-6">{doc.name}</td>
+                <td className="py-3 px-6">
+                  <a
+                    href={doc.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 underline break-all"
+                  >
+                    Lihat
+                  </a>
+                </td>
                 <td className="py-3 px-6">
                   <span
                     className={`px-2 py-1 rounded-full text-xs font-semibold ${
