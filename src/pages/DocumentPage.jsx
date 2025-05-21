@@ -15,6 +15,7 @@ const Document = () => {
             <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
               <th className="py-3 px-6 text-left">No</th>
               <th className="py-3 px-6 text-left">Nama Dokumentasi</th>
+              <th className="py-3 px-6 text-left">Link</th>
               <th className="py-3 px-6 text-left">Status</th>
               <th className="py-3 px-6 text-left">Traffic</th>
             </tr>
